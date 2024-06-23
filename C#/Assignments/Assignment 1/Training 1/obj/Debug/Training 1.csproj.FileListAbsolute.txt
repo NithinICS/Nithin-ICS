@@ -1,0 +1,7 @@
+D:\N ICS Training 2024\Training 1\Training 1\obj\Debug\Training 1.csproj.AssemblyReference.cache
+D:\N ICS Training 2024\Training 1\Training 1\obj\Debug\Training 1.csproj.CoreCompileInputs.cache
+D:\N ICS Training 2024\Training 1\Training 1\bin\Debug\Training 1.exe.config
+D:\N ICS Training 2024\Training 1\Training 1\bin\Debug\Training 1.exe
+D:\N ICS Training 2024\Training 1\Training 1\bin\Debug\Training 1.pdb
+D:\N ICS Training 2024\Training 1\Training 1\obj\Debug\Training 1.exe
+D:\N ICS Training 2024\Training 1\Training 1\obj\Debug\Training 1.pdb
