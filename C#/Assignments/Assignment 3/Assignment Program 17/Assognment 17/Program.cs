@@ -43,7 +43,7 @@ namespace Account
         }
         public static void Main(string[] args)
         {
-            Customer customer1 = new Customer(1, "Raghu Reddy", 22, 9008662265, "Bangalore");
+            Customer customer1 = new Customer(1, "Nithin Jagadeesh", 23, 8904062277, "Bangalore");
             customer1.DisplayCustomer();
             Console.Read();
         }

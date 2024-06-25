@@ -19,7 +19,7 @@ namespace Account
         public Account()
         {
             accountNo = 3456789098;
-            customerName = "Raghu";
+            customerName = "Nithin";
             accountType = "Savings";
             balance = 50000;
             Console.WriteLine($"Account no is {accountNo} Customer name is {customerName} Account type is {accountType}");

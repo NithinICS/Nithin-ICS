@@ -80,8 +80,8 @@ namespace Account
 
         public static void Main(string[] args)
         {
-            Student student1 = new Student(552, "Raghu", "B.tech", "First", "Computer's");
-            student1.GetMarks(80, 70, 60, 85, 75);
+            Student student1 = new Student(552, "Nithin", "BE", "First", "Computer's");
+            student1.GetMarks(87, 72, 62, 82, 65);
             student1.DisplayData();
             student1.CalculateAverage();
             Console.WriteLine();
