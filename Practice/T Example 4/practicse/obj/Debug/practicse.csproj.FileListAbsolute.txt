@@ -1,2 +1,0 @@
-D:\N ICS Training 2024\Assignments\practicse\practicse\obj\Debug\practicse.csproj.AssemblyReference.cache
-D:\N ICS Training 2024\Assignments\practicse\practicse\obj\Debug\practicse.csproj.CoreCompileInputs.cache
