@@ -1,0 +1,6 @@
+D:\N ICS Training 2024\C#\Assignments\Assignment 5\Assignment Program 4\Assignment Program 4\bin\Debug\Assignment Program 4.exe.config
+D:\N ICS Training 2024\C#\Assignments\Assignment 5\Assignment Program 4\Assignment Program 4\bin\Debug\Assignment Program 4.exe
+D:\N ICS Training 2024\C#\Assignments\Assignment 5\Assignment Program 4\Assignment Program 4\bin\Debug\Assignment Program 4.pdb
+D:\N ICS Training 2024\C#\Assignments\Assignment 5\Assignment Program 4\Assignment Program 4\obj\Debug\Assignment Program 4.csproj.CoreCompileInputs.cache
+D:\N ICS Training 2024\C#\Assignments\Assignment 5\Assignment Program 4\Assignment Program 4\obj\Debug\Assignment Program 4.exe
+D:\N ICS Training 2024\C#\Assignments\Assignment 5\Assignment Program 4\Assignment Program 4\obj\Debug\Assignment Program 4.pdb
