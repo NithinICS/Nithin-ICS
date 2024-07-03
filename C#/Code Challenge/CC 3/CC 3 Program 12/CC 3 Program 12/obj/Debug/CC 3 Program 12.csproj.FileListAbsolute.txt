@@ -1,0 +1,7 @@
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\obj\Debug\CC 3 Program 12.csproj.AssemblyReference.cache
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\obj\Debug\CC 3 Program 12.csproj.CoreCompileInputs.cache
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\bin\Debug\CC 3 Program 12.exe.config
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\bin\Debug\CC 3 Program 12.exe
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\bin\Debug\CC 3 Program 12.pdb
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\obj\Debug\CC 3 Program 12.exe
+D:\N ICS Training 2024\C#\Code Challenge\CC 3\CC 3 Program 12\CC 3 Program 12\obj\Debug\CC 3 Program 12.pdb

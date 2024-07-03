@@ -5,3 +5,10 @@ D:\N ICS Training 2024\Training 7\Training 7\obj\Debug\Training 7.csproj.Assembl
 D:\N ICS Training 2024\Training 7\Training 7\obj\Debug\Training 7.csproj.CoreCompileInputs.cache
 D:\N ICS Training 2024\Training 7\Training 7\obj\Debug\Training 7.exe
 D:\N ICS Training 2024\Training 7\Training 7\obj\Debug\Training 7.pdb
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\bin\Debug\Training 7.exe.config
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\bin\Debug\Training 7.exe
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\bin\Debug\Training 7.pdb
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\obj\Debug\Training 7.csproj.AssemblyReference.cache
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\obj\Debug\Training 7.csproj.CoreCompileInputs.cache
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\obj\Debug\Training 7.exe
+D:\N ICS Training 2024\C#\Assignments\Assignment 2\Assignment Program 2\Training 7\obj\Debug\Training 7.pdb

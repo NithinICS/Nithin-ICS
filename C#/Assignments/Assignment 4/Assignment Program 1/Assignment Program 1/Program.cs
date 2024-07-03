@@ -27,7 +27,7 @@ namespace Assignment_4_Ques_1
 
         public static void Main(string[] args)
         {
-            Program program = new Program("Nithin", "J");
+            Program program = new Program("Nithin", "Jagadeesh");
             Display(program);
             Console.ReadLine();
         }

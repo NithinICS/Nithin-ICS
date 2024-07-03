@@ -17,6 +17,7 @@ public class WordComparison
         if (areSame)
         {
             Console.WriteLine("The words are the same.");
+            Console.ReadLine();
         }
         else
         {
