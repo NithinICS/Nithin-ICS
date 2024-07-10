@@ -10,7 +10,7 @@ namespace Test_3_
     {
         static void Main()
         {
-            string filePath = @"D:\N ICS Training 2024\C#\Code Challenge\CC 4\Program 1 Folder";
+            string filePath = @"D:\N ICS Training 2024\C#\Code Challenge\CC 4\CC4 Pogram1.txt";
             try
             {
                 Console.WriteLine("Enter text to append");
