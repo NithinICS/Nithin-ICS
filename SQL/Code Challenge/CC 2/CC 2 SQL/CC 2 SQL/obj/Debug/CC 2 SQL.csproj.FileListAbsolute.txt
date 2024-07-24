@@ -1,0 +1,7 @@
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\bin\Debug\CC 2 SQL.exe.config
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\bin\Debug\CC 2 SQL.exe
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\bin\Debug\CC 2 SQL.pdb
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\obj\Debug\CC 2 SQL.csproj.AssemblyReference.cache
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\obj\Debug\CC 2 SQL.csproj.CoreCompileInputs.cache
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\obj\Debug\CC 2 SQL.exe
+D:\N ICS Training 2024\SQL\Code Challenge\CC 2\CC 2 SQL\CC 2 SQL\obj\Debug\CC 2 SQL.pdb
