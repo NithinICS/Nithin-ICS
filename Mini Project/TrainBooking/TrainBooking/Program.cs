@@ -164,7 +164,7 @@ public static class DataAccess
         string query = "INSERT INTO Users (Username, Password) VALUES (@Username, @Password)";
         SqlParameter[] parameters = {
             new SqlParameter("@Username", username),
-            new SqlParameter("@Password", password) // Passwords should be hashed in a real-world scenario
+            new SqlParameter("@Password", password) 
         };
         ExecuteNonQuery(query, parameters);
     }
@@ -208,7 +208,7 @@ class Program
     {
         while (true)
         {
-            Console.Clear(); // Clear the console for better readability
+            Console.Clear(); 
             Console.WriteLine("Welcome to Railways");
             Console.WriteLine("Are you an Admin or a Normal User? (Enter 'Admin' or 'User')");
             string userType = Console.ReadLine();
@@ -233,7 +233,7 @@ class Program
     {
         while (true)
         {
-            Console.Clear(); // Clear the console for better readability
+            Console.Clear(); 
             Console.WriteLine("Admin Panel");
             Console.WriteLine("1. View Trains");
             Console.WriteLine("2. Edit Train Details");
@@ -273,7 +273,7 @@ class Program
                     ViewCancellationHistory();
                     break;
                 case "9":
-                    return; // Exit AdminActions and go back to Main menu
+                    return; 
                 default:
                     Console.WriteLine("Invalid choice.");
                     WaitForUserInput();
@@ -286,7 +286,7 @@ class Program
     {
         while (true)
         {
-            Console.Clear(); // Clear the console for better readability
+            Console.Clear(); 
             Console.WriteLine("User Panel");
             Console.WriteLine("1. Register");
             Console.WriteLine("2. Book Tickets");
@@ -306,7 +306,7 @@ class Program
                     CancelBooking();
                     break;
                 case "4":
-                    return; // Exit UserActions and go back to Main menu
+                    return; 
                 default:
                     Console.WriteLine("Invalid choice.");
                     WaitForUserInput();
@@ -318,7 +318,7 @@ class Program
     static void ViewTrains()
     {
         DataTable trains = DataAccess.GetTrains();
-        Console.Clear(); // Clear the console for better readability
+        Console.Clear();
         Console.WriteLine("Trains:");
         foreach (DataRow row in trains.Rows)
         {
@@ -401,7 +401,7 @@ class Program
     static void ViewAllUsers()
     {
         DataTable users = DataAccess.GetUsers();
-        Console.Clear(); // Clear the console for better readability
+        Console.Clear(); 
         Console.WriteLine("Users:");
         foreach (DataRow row in users.Rows)
         {
@@ -413,7 +413,7 @@ class Program
     static void ViewAllBookings()
     {
         DataTable bookings = DataAccess.GetBookings();
-        Console.Clear(); // Clear the console for better readability
+        Console.Clear(); 
         Console.WriteLine("Bookings:");
         foreach (DataRow row in bookings.Rows)
         {
@@ -425,7 +425,7 @@ class Program
     static void ViewCancellationHistory()
     {
         DataTable cancellations = DataAccess.GetCancellations();
-        Console.Clear(); // Clear the console for better readability
+        Console.Clear();
         Console.WriteLine("Cancellations:");
         foreach (DataRow row in cancellations.Rows)
         {
@@ -467,13 +467,13 @@ class Program
             int availableSeats = (int)trainRow["SeatsAvailable"];
             if (seatsBooked <= availableSeats)
             {
-                // Add booking
+               
                 DataAccess.AddBooking(userId, trainId, seatsBooked);
 
-                // Update available seats
+                
                 DataAccess.EditTrain(trainId, (string)trainRow["TrainName"], (string)trainRow["Destination"], (string)trainRow["StartingLocation"], availableSeats - seatsBooked, (decimal)trainRow["PricePerSeat"]);
 
-                // Get the latest booking details
+               
                 DataTable bookings = DataAccess.GetBookings();
                 DataRow bookingRow = bookings.AsEnumerable().FirstOrDefault(row => (int)row["UserID"] == userId && (int)row["TrainID"] == trainId && (int)row["SeatsBooked"] == seatsBooked);
 
@@ -482,7 +482,7 @@ class Program
                     int bookingId = (int)bookingRow["BookingID"];
                     DateTime bookingDate = (DateTime)bookingRow["BookingDate"];
 
-                    // Print the ticket
+                   
                     PrintTicket(bookingId, userId, trainId, seatsBooked, bookingDate);
                 }
                 else
@@ -503,7 +503,7 @@ class Program
     }
     static void PrintTicket(int bookingId, int userId, int trainId, int seatsBooked, DateTime bookingDate)
     {
-        // Fetch train details
+        
         DataTable trainTable = DataAccess.GetTrains();
         DataRow trainRow = trainTable.AsEnumerable().FirstOrDefault(row => (int)row["TrainID"] == trainId);
 
@@ -514,7 +514,7 @@ class Program
             string startingLocation = (string)trainRow["StartingLocation"];
             decimal pricePerSeat = (decimal)trainRow["PricePerSeat"];
 
-            Console.Clear(); // Clear the console for better readability
+            Console.Clear();
             Console.WriteLine("Booking Successful!");
             Console.WriteLine("------- Ticket -------");
             Console.WriteLine($"Booking ID: {bookingId}");
@@ -543,7 +543,7 @@ class Program
 
         if (userBookings.Count > 0)
         {
-            Console.Clear(); // Clear the console for better readability
+            Console.Clear(); 
             Console.WriteLine("Your Booked Tickets:");
             foreach (var row in userBookings)
             {
